@@ -1,0 +1,26 @@
+{
+	"id": "nws-api",
+	"name": "nws-api",
+	"shortname": "nws-api",
+	"description": "Show alerts from the National Weather Service",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/josephdadams/companion-module-nws-api.git",
+	"bugs": "https://github.com/josephdadams/companion-module-nws-api/issues",
+	"maintainers": [
+		{
+			"name": "Joseph Adams",
+			"email": "joseph@josephadams.dev"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../dist/main.js"
+	},
+	"manufacturer": "National Weather Service",
+	"products": ["Weather Alerts"],
+	"keywords": ["weather", "alerts", "national weather service"]
+}
