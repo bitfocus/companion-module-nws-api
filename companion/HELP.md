@@ -1,10 +1,10 @@
-# Weather Gov
+# National Weather Service API
 
 This module will show alerts from the national weather service in the US using the weather.gov api.
 
 ## Configuration
 
-- Latitude/Longitude
+- Latitude/Longitude or Zone ID
 - Trigger on Event Types
 - Enable Verbose Logging
 
